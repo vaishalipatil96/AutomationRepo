@@ -11,7 +11,7 @@ public class SeliniumExample {
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.facebook.com");
         Thread.sleep(3000);
-        driver.close();
+        driver.quite();
 
     }
 }
