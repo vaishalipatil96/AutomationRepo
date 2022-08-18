@@ -23,7 +23,7 @@ public class navigate {
         Thread.sleep(4000);
 
         test1.navigate().refresh();
-        Thread.sleep(4000);
+        Thread.sleep(5000);
 
         test1.close();
     }
